@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/') 
 def hello(): 
-	return "Welcome to the flask-demo"
+	return "Welcome to the flask-demo-test"
 @app.route('/home')
 def hell():
         return "Hi Folks, Welcome to Docker"
