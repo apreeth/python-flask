@@ -6,7 +6,7 @@ def hello():
 	return "welcome to the flask-demo"
 @app.route('/home')
 def hell():
-        return "Hi Folks, Welcome to docker"
+        return "Hi Folks, Welcome to Docker"
 
 if __name__ == "__main__": 
 	app.run(host ='0.0.0.0', port = 5001, debug = True) 
